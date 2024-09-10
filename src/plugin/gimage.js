@@ -13,7 +13,7 @@ const query = m.body.slice(prefix.length + cmd.length).trim();
   if (validCommands.includes(cmd)) {
   
     if (!query && !(m.quoted && m.quoted.text)) {
-      return sock.sendMessage(m.from, { text: `Please provide some text, Example usage: ${prefix + cmd} black cats` });
+      return sock.sendMessage(m.from, { text: `Please provide some text, Example usage: ${prefix + cmd} Mount Meru View From Arusha` });
     }
   
     if (!query && m.quoted && m.quoted.text) {
