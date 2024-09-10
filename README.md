@@ -1,20 +1,20 @@
 ---
 
-# Ethix-MD-V2
+# M.Meru-Md
 
 <p align="center">
-  <a href="https://github.com/Ethix-Xsid"><img src="http://readme-typing-svg.herokuapp.com?color=red&center=true&vCenter=true&multiline=false&lines=Ethix-MD-+v2+MultiDevice;Developed+by+Ethix~Xsid;Give+star+and+forks+this+Repo+🌟" alt="EthixReadme"></a>
+  <a href="https://github.com/Fred1e"><img src="http://readme-typing-svg.herokuapp.com?color=red&center=true&vCenter=true&multiline=false&lines=M.Meru-Md+MultiDevice;Developed+by+Fredie;Give+star+and+forks+this+Repo+🌟" alt="M.MeruReadme"></a>
 </p>
 
 ## 🚀 Getting Started
 
-To get started with Ethix-MD-V2, follow these steps:
+To get started with M.Meru-Md, follow these steps:
 
 ### 1. Fork This Repository
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-<a href='https://github.com/Ethix-Xsid/Ethix-MD-V2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Fred1e/M.Meru-Md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 ### 2. Get Session ID via Pair Code
 
@@ -24,7 +24,7 @@ You'll need a session ID to run the bot. Click the button below to obtain your s
 
 ## 🚀 Deployment Options
 
-You can deploy the Ethix-MD-V2 bot using two methods: **Heroku** or **Termux**. Choose the method that suits you best.
+You can deploy the M.Meru-Md bot using two methods: **Heroku** or **Termux**. Choose the method that suits you best.
 
 ### Deploy to Heroku
 
@@ -67,7 +67,7 @@ You can also deploy the bot directly on your Android device using Termux. Here�
    Clone the forked repository using the following command:
 
    ```bash
-   git clone https://github.com/Ethix-Xsid/Ethix-MD-V2.git
+   git clone https://github.com/Fred1e /M.Meru-Md.git
    ```
 
 4. **Navigate to the Project Directory:**
@@ -75,7 +75,7 @@ You can also deploy the bot directly on your Android device using Termux. Here�
    Change into the project directory:
 
    ```bash
-   cd Ethix-MD-V2
+   cd M.Meru-Md
    ```
 
 5. **Set the `SESSION_ID` in the `.env` File:**
@@ -126,12 +126,12 @@ You can also deploy the bot directly on your Android device using Termux. Here�
 
 Stay connected with the latest updates and community by joining our official WhatsApp group and channel. You can also contact the owner directly.
 
-- **Owner WhatsApp Number:** +919142294671
+- **Owner WhatsApp Number:** +255764182801
   - *Note:* Please save the owner's number in your contacts before sending a message.
 
-- **WhatsApp Channel:** [Join Here](https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S)
+- **WhatsApp Channel:** [Join Here](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
 
-- **WhatsApp Group:** [Join Here](https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp)
+- **Telegram Group:** [Join Here](https://t.me/+u3zlb5y6OfxhOTdk)
 
 ## ⚠️ Reminder
 
