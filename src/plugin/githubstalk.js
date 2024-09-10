@@ -8,7 +8,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 const text = m.body.slice(prefix.length + cmd.length).trim();
     const args = text.split(' ');
 
-    const validCommands = ['githubstalk', 'ghstalk'];
+    const validCommands = ['githubstalk', 'ghstalk', 'github'];
 
    if (validCommands.includes(cmd)) {
       if (!args[0]) return m.reply('Mention a GitHub username to stalk.');
