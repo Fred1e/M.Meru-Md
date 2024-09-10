@@ -40,7 +40,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     await gss.groupParticipantsUpdate(m.from, validUsers, 'demote')
       .then(() => {
         const demotedNames = validUsers.map(user => `@${user.split("@")[0]}`);
-        m.reply(`*USERS ${demotedNames} DEMOTED SUCCESSFULLY IN THE GROUP ${groupMetadata.subject}*`);
+        m.reply(`*USERS ${demotedNames} Demoted BY 𝐌.𝐌𝐄𝐑𝐔-𝐌𝐃 SUCCESSFULLY IN THE GROUP ${groupMetadata.subject}*`);
       })
       .catch(() => m.reply('Failed to demote user(s) in the group.'));
   } catch (error) {
