@@ -67,7 +67,7 @@ You can also deploy the bot directly on your Android device using Termux. Hereâ€
    Clone the forked repository using the following command:
 
    ```bash
-   git clone https://github.com/Fred1e /M.Meru-Md.git
+   git clone https://github.com/Fred1e/M.Meru-Md.git
    ```
 
 4. **Navigate to the Project Directory:**
