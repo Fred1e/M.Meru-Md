@@ -11,14 +11,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const validCommands = ['lyrics', 'lyric'];
 
   if (validCommands.includes(cmd)) {
-    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Spectre|Alan Walker._`);
+    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Unity|Alan Walker._`);
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *Ethix-MD* is generating your lyrics request...');
+      await m.reply('A moment, *M.Meru-Md* is generating your lyrics request...');
 
       if (!text.includes('|')) {
-        return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
+        return m.reply('Please provide the song name and artist name separated by a "|", for example: Unity|Alan Walker.');
       }
 
       const [title, artist] = text.split('|').map(part => part.trim());
@@ -45,8 +45,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴇᴛʜɪx-ᴍᴅ",
-              url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+              display_text: "sʜᴏᴡ 🗻 ғᴏʀ M.Meru-Md",
+              url: `https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f`
             })
           },
           {
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ*"
+                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍ.ᴍᴇʀᴜ-ᴍᴅ*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
