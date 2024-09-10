@@ -27,15 +27,15 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       const result = response.data;
 
-      let formattedResult = `╭══════════════•∞•══╮\n`;
-      formattedResult += `│⿻   *𝞢𝙏𝞖𝞘𝞦-𝞛𝘿 😎 🔥*\n`;
-      formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
-      formattedResult += `│⿻\n`;
+      let formattedResult = `╭══•∞•═════════•∞•══╮\n`;
+      formattedResult += `│✣   *𝐌.𝐌𝐄𝐑𝐔-𝐌𝐃 🗻 🔥*\n`;
+      formattedResult += `│✣   *LIVE MATCH INFO* ✨\n`;
+      formattedResult += `│✣\n`;
 
       if (result.code === 200) {
-        formattedResult += `│⿻   *${result.data.title}*\n`;
-        formattedResult += `│⿻   *${result.data.update}*\n`;
-        formattedResult += `│⿻ \n`;
+        formattedResult += `│✣   *${result.data.title}*\n`;
+        formattedResult += `│✣   *${result.data.update}*\n`;
+        formattedResult += `│✣ \n`;
       } else {
         await m.reply(`*Update:* Data not found for the specified match ID.`);
         await m.React("❌");
@@ -43,23 +43,23 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       }
 
       if (result.data.liveScore && result.data.liveScore.toLowerCase() !== "data not found") {
-        formattedResult += `│⿻   *Live Score:* ${result.data.liveScore}\n`;
-        formattedResult += `│⿻   *Run Rate:* ${result.data.runRate}\n`;
-        formattedResult += `│⿻\n`;
-        formattedResult += `│⿻   *Batter 1:* ${result.data.batsmanOne}\n`;
-        formattedResult += `│⿻   *${result.data.batsmanOneRun} (${result.data.batsmanOneBall})* SR: ${result.data.batsmanOneSR}\n`;
-        formattedResult += `│⿻\n`;
-        formattedResult += `│⿻   *Batter 2:* ${result.data.batsmanTwo}\n`;
-        formattedResult += `│⿻   *${result.data.batsmanTwoRun} (${result.data.batsmanTwoBall})* SR: ${result.data.batsmanTwoSR}\n`;
-        formattedResult += `│⿻\n`;
-        formattedResult += `│⿻   *Bowler 1:* ${result.data.bowlerOne}\n`;
-        formattedResult += `│⿻   *${result.data.bowlerOneOver} overs, ${result.data.bowlerOneRun}/${result.data.bowlerOneWickets}, Econ:* ${result.data.bowlerOneEconomy}\n`;
-        formattedResult += `│⿻\n`;
-        formattedResult += `│⿻   *Bowler 2:* ${result.data.bowlerTwo}\n`;
-        formattedResult += `│⿻   *${result.data.bowlerTwoOver} overs, ${result.data.bowlerTwoRun}/${result.data.bowlerTwoWicket}, Econ:* ${result.data.bowlerTwoEconomy}\n`;
+        formattedResult += `│✣   *Live Score:* ${result.data.liveScore}\n`;
+        formattedResult += `│✣   *Run Rate:* ${result.data.runRate}\n`;
+        formattedResult += `│✣\n`;
+        formattedResult += `│✣   *Batter 1:* ${result.data.batsmanOne}\n`;
+        formattedResult += `│✣   *${result.data.batsmanOneRun} (${result.data.batsmanOneBall})* SR: ${result.data.batsmanOneSR}\n`;
+        formattedResult += `│✣\n`;
+        formattedResult += `│✣   *Batter 2:* ${result.data.batsmanTwo}\n`;
+        formattedResult += `│✣   *${result.data.batsmanTwoRun} (${result.data.batsmanTwoBall})* SR: ${result.data.batsmanTwoSR}\n`;
+        formattedResult += `│✣\n`;
+        formattedResult += `│✣   *Bowler 1:* ${result.data.bowlerOne}\n`;
+        formattedResult += `│✣   *${result.data.bowlerOneOver} overs, ${result.data.bowlerOneRun}/${result.data.bowlerOneWickets}, Econ:* ${result.data.bowlerOneEconomy}\n`;
+        formattedResult += `│✣\n`;
+        formattedResult += `│✣   *Bowler 2:* ${result.data.bowlerTwo}\n`;
+        formattedResult += `│✣   *${result.data.bowlerTwoOver} overs, ${result.data.bowlerTwoRun}/${result.data.bowlerTwoWicket}, Econ:* ${result.data.bowlerTwoEconomy}\n`;
       }
 
-      formattedResult += `╰══•∞•═══════════════╯ `;
+      formattedResult += `╰══•∞•══════════•∞•══╯ `;
 
       await m.reply(formattedResult);
       await m.React("✅");
